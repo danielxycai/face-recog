@@ -1,0 +1,33 @@
+# Virtual Environment
+.venv/
+venv/
+env/
+ENV/
+
+# Python Bytecode & Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Streamlit Local Config & Secrets
+.streamlit/secrets.toml
+
+# PyTorch Model Checkpoints & Temporary Dumps
+*.pt
+*.pth
+
+# IDE & Editor Configurations
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS Artifacts
+.DS_Store
+Thumbs.db
+
+# Large / Temporary Test Uploads (Preserves demo_images/)
+temp_uploads/
+tmp/
